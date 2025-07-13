@@ -330,7 +330,7 @@ function updatePriceList() {
 
     let seriesItem = document.createElement("li");
     seriesItem.innerHTML = discountPercentage > 0
-        ? `<br>📺 <b>Khusus Film Series:* 📺</b><br>🎬 <s>Rp ${seriesPrice.toLocaleString()} /season</s> Rp ${discountedSeriesPrice.toLocaleString()} /season${seriesDiscountText}<br><b>*</b>(Lebih hemat! Tiap season selalu lebih dari 5 episode)`
+        ? `<br>📺 <b>Khusus Film Series:* 📺</b><br>🎬 <s>Rp ${seriesPrice.toLocaleString()} /season</s> Rp ${discountedSeriesPrice.toLocaleString()} /season${seriesDiscountText}<br><b>*</b>(Lebih hemat! Karena tiap season selalu lebih dari 5 episode)`
         : `<br><b>Khusus Film Series:*</b><br>📺 Rp ${seriesPrice.toLocaleString()} /season<br><b>*</b>(Lebih hemat! Tiap season selalu lebih dari 5 episode)`;
 
     priceList.appendChild(seriesItem);
